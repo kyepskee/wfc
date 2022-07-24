@@ -1,0 +1,13 @@
+[package]
+name = "wfc"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+image = { version = "0.23", defeault-features = false, features = ["png"] }
+palette = { git = "https://github.com/Ogeon/palette" }
+palette_derive = "0.6.1"
+rand = "0.8.5"
+rand_mt = "4.1.1"
